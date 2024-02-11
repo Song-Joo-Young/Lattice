@@ -1,5 +1,5 @@
 CUDA_VISIBLE_DEVICES=0 python train.py \
---model_name_or_path t5-small \
+--model_name_or_path t5-base \
 --do_train \
 --do_eval \
 --do_predict \
